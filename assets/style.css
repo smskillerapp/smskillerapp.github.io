@@ -1,6 +1,6 @@
 body {
     font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #f7f7f7;
     margin: 0;
     color: #333;
     min-height: 100vh;
@@ -24,18 +24,16 @@ header {
     border-bottom: 2px solid #f0f0f0;
 }
 
-.icon-placeholder {
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 16px auto;
+}
+
+.app-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(45deg, #ff6b6b, #ffa726);
-    border-radius: 20px;
-    margin: 0 auto 16px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
+    border-radius: 18px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 }
 
